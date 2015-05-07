@@ -43,8 +43,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"code.google.com/p/goprotobuf/proto"
-	"code.google.com/p/goprotobuf/protoc-gen-go/generator"
+	"github.com/plumgrid/protobuf/proto"
+	"github.com/plumgrid/protobuf/protoc-gen-go/generator"
 )
 
 func main() {

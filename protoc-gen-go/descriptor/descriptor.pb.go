@@ -4,7 +4,7 @@
 
 package google_protobuf
 
-import proto "code.google.com/p/goprotobuf/proto"
+import proto "github.com/plumgrid/protobuf/proto"
 import json "encoding/json"
 import math "math"
 

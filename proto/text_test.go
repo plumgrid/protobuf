@@ -39,7 +39,7 @@ import (
 	"strings"
 	"testing"
 
-	"code.google.com/p/goprotobuf/proto"
+	"github.com/plumgrid/protobuf/proto"
 
 	pb "./testdata"
 )

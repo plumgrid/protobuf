@@ -37,7 +37,7 @@ import (
 	"testing"
 
 	. "./testdata"
-	. "code.google.com/p/goprotobuf/proto"
+	. "github.com/plumgrid/protobuf/proto"
 )
 
 type UnmarshalTextTest struct {

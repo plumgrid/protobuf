@@ -50,9 +50,9 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"code.google.com/p/goprotobuf/proto"
-	descriptor "code.google.com/p/goprotobuf/protoc-gen-go/descriptor"
-	plugin "code.google.com/p/goprotobuf/protoc-gen-go/plugin"
+	"github.com/plumgrid/protobuf/proto"
+	descriptor "github.com/plumgrid/protobuf/protoc-gen-go/descriptor"
+	plugin "github.com/plumgrid/protobuf/protoc-gen-go/plugin"
 )
 
 // A Plugin provides functionality to add to the output during Go code generation,
@@ -1014,7 +1014,7 @@ func (g *Generator) generateImports() {
 	// reference it later. The same argument applies to the math package,
 	// for handling bit patterns for floating-point numbers, and to the
 	// json package, for symbolic names of enum values for JSON marshaling.
-	g.P("import " + g.Pkg["proto"] + " " + strconv.Quote(g.ImportPrefix+"code.google.com/p/goprotobuf/proto"))
+	g.P("import " + g.Pkg["proto"] + " " + strconv.Quote(g.ImportPrefix+"github.com/plumgrid/protobuf/proto"))
 	g.P("import " + g.Pkg["json"] + ` "encoding/json"`)
 	g.P("import " + g.Pkg["math"] + ` "math"`)
 	for i, s := range g.file.Dependency {

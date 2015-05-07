@@ -35,7 +35,7 @@ import (
 	"testing"
 
 	pb "./testdata"
-	. "code.google.com/p/goprotobuf/proto"
+	. "github.com/plumgrid/protobuf/proto"
 )
 
 // Four identical base messages.

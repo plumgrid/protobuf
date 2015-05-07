@@ -4,10 +4,10 @@
 
 package google_protobuf_compiler
 
-import proto "code.google.com/p/goprotobuf/proto"
+import proto "github.com/plumgrid/protobuf/proto"
 import json "encoding/json"
 import math "math"
-import google_protobuf "code.google.com/p/goprotobuf/protoc-gen-go/descriptor"
+import google_protobuf "github.com/plumgrid/protobuf/protoc-gen-go/descriptor"
 
 // Reference proto, json, and math imports to suppress error if they are not otherwise used.
 var _ = proto.Marshal
